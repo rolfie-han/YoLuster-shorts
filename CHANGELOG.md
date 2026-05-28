@@ -2,6 +2,20 @@
 
 > Public product-facing updates for `YoYoung Shorts 优扬短剧`.
 
+## 2026-05
+
+### YoYoung Shorts 2.0
+
+- Released the v2.0 Docker local deployment package.
+- Strengthened the full creative workflow from imported script to story parsing, asset prompts, storyboard generation, image generation, and video output.
+- Added stronger automatic parsing for multi-episode scripts, characters, scenes, props, relationships, and story beats.
+- Improved prompt generation so non-technical users can start from script content instead of manually writing complex prompts.
+- Expanded model route adaptation across text, vision, image, audio, and video workflows.
+- Added a clearer standalone video output workflow for storyboard video generation and result preview.
+- Improved professional workspace boundaries across script parsing, assets, storyboard, video generation, and final preview.
+- Refined login and brand presentation surfaces.
+- Improved task feedback, concurrent work areas, asset state sync, and Docker package delivery.
+
 ## 2026-03
 
 ### Brand
