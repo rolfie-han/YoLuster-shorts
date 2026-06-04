@@ -1,4 +1,4 @@
-# YoYoung Shorts 优扬短剧 Docker 本地部署包 v2.0.0
+# YoYoung Shorts 优漾短剧 Docker 本地部署包 v2.0.0
 
 YoYoung Shorts v2.0 是一次面向短剧 / 漫剧创作流程的重大升级。
 

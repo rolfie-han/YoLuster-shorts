@@ -1,6 +1,6 @@
 # Changelog
 
-> Public product-facing updates for `YoYoung Shorts 优扬短剧`.
+> Public product-facing updates for `YoYoung Shorts 优漾短剧`.
 
 ## 2026-05
 
@@ -20,7 +20,7 @@
 
 ### Brand
 
-- Brand identity finalized as `YoYoung Shorts 优扬短剧`
+- Brand identity finalized as `YoYoung Shorts 优漾短剧`
 - Key in-product brand surfaces were unified around the new name
 
 ### Product Direction
