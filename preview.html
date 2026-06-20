@@ -217,7 +217,7 @@
 
     .demo-list {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 18px;
     }
 
@@ -234,9 +234,11 @@
       background: #fff;
     }
 
-    .demo video {
+    .demo video,
+    .demo img {
       width: 100%;
       display: block;
+      background: #0b1020;
     }
 
     .demo .meta {
@@ -285,17 +287,17 @@
 
     <section class="hero">
       <div class="hero-copy">
-        <h2>从一句想法开始，自动组织分镜脚本、连续图片与视频结果</h2>
+        <h2>2.0 工作流：从剧本解析、资产矩阵到连续图片与视频输出</h2>
         <p>
-          YoYoung Shorts 优漾短剧不是单点模型入口，而是一套把角色、场景、道具、分镜脚本、图片和视频串成连续工作流的 AI 短剧工作台。
+          YoYoung Shorts 优漾短剧不是单点模型入口，而是一套把剧本、角色、场景、道具、分镜脚本、连续图片和视频结果串成完整生产链路的 AI 短剧工作台。
         </p>
       </div>
       <div class="hero-media">
-        <img src="./assets/hero/hero-overview-main.png" alt="Hero overview" />
+        <img src="./assets/v2-showcase/story-multiframe-dark.png" alt="YoYoung Shorts 2.0 multi-frame story workbench" />
         <div class="hero-caption">
           <div>
-            <strong>一句想法也能开始</strong>
-            <span>不要求先写复杂提示词，先把创意变成可继续推进的创作起点。</span>
+            <strong>从剧本进入生产链</strong>
+            <span>剧本会继续拆成角色、场景、道具和镜头，而不是停在一段文本。</span>
           </div>
           <div>
             <strong>脚本、图片、视频是连着的</strong>
@@ -326,69 +328,69 @@
 
     <section class="section">
       <h3>核心展示</h3>
-      <p class="lead">首批展示重点聚焦资产逻辑、图片一致性、分镜脚本到视频的闭环能力，并把每个功能区说清楚。</p>
+      <p class="lead">2.0 展示重点按真实创作顺序组织：剧本解析、资产矩阵、多图叙事、分镜生成、图片生成和视频输出。</p>
       <div class="cards">
         <article class="card">
-          <img src="./assets/showcases/showcase-create-single-image-with-assets.png" alt="Create with assets" />
+          <img src="./assets/v2-showcase/script-parse-dark.png" alt="Script parsing workspace" />
           <div class="card-body">
-            <h4>Create：从想法进入创作起点</h4>
-            <p>用户不必先准备复杂提示词。这里更像一个“灵感起稿区”，把一句想法推向后续可继续扩展的内容链。</p>
+            <h4>Parse：剧本解析成生产结构</h4>
+            <p>剧本不是一段孤立文本，而是会继续拆成剧情、角色、场景、物品和镜头信息，为后续资产和分镜生产做准备。</p>
           </div>
         </article>
         <article class="card">
-          <img src="./assets/showcases/showcase-assets-anchor-system.png" alt="Assets anchor system" />
+          <img src="./assets/v2-showcase/asset-matrix-scenes-dark.png" alt="Asset matrix scenes" />
           <div class="card-body">
-            <h4>Assets：角色、场景、道具作为锚点</h4>
-            <p>资产中心不是摆设。角色、场景、道具会持续进入后续生成流程，这也是它区别于普通出图工具的核心逻辑。</p>
+            <h4>Assets：资产矩阵作为创作锚点</h4>
+            <p>角色、场景、道具会持续进入后续生成流程，这也是它区别于普通单点出图工具的核心逻辑。</p>
           </div>
         </article>
         <article class="card">
-          <img src="./assets/showcases/showcase-story-multi-frame-consistency.png" alt="Story consistency" />
+          <img src="./assets/v2-showcase/story-multiframe-dark.png" alt="Multi-frame story consistency" />
           <div class="card-body">
             <h4>Story：多图叙事保持连续感</h4>
             <p>不是重复同一张图，而是把一个剧情段落组织成多张连续画面。角色关系、场景氛围和剧情节奏会持续延续。</p>
           </div>
         </article>
         <article class="card">
-          <img src="./assets/cases/case-single-character-consistency-history.png" alt="Single character consistency" />
+          <img src="./assets/v2-showcase/storyboard-generation-dark.png" alt="Storyboard generation" />
           <div class="card-body">
-            <h4>History：结果沉淀，也能反证一致性</h4>
-            <p>历史记录不仅是归档区，也能直接看出同一角色在不同镜头、构图和动作下的稳定延续，这是当前最成熟的能力之一。</p>
+            <h4>Script：分镜脚本继续连接首帧和视频</h4>
+            <p>分镜不是终点，它继续承接镜头描述、对白旁白、出镜人物、关键场景和首帧图，让内容从文本进入画面。</p>
           </div>
         </article>
       </div>
     </section>
 
     <section class="section">
-      <h3>脚本与视频工作流</h3>
-      <p class="lead">分镜脚本不是终点，它可以继续连接图片与视频，形成完整创作闭环。</p>
+      <h3>图片与视频输出</h3>
+      <p class="lead">图片生成和视频输出承接前面的资产与分镜，让创作不是停在静态截图，而是继续进入镜头结果。</p>
       <div class="cards">
         <article class="card">
-          <img src="./assets/showcases/showcase-script-to-video.png" alt="Script to video" />
+          <img src="./assets/v2-showcase/image-generation-dark.png" alt="Image generation grid" />
           <div class="card-body">
-            <h4>Script：从分镜脚本继续推进到视频结果</h4>
-            <p>脚本、画面和视频结果可以同屏出现，更容易理解这不是只写文案，而是一条可继续执行的分镜工作流。</p>
+            <h4>Image：批量画面生成</h4>
+            <p>同一段剧情可以继续生成多张画面，用于筛选镜头、比较构图，并作为后续视频输出的素材基础。</p>
           </div>
         </article>
         <article class="card">
-          <img src="./assets/showcases/showcase-script-video-audio-workbench.png" alt="Script video audio workbench" />
+          <img src="./assets/v2-showcase/video-output-dark.png" alt="Video output workspace" />
           <div class="card-body">
-            <h4>Script + Audio：脚本、视频与音频工作区</h4>
-            <p>它不是单一结果页，而是一个能继续处理脚本、视频和音频内容的工作台。这一块更适合放在中段，而不是抢首屏。</p>
+            <h4>Video：从镜头图继续到视频</h4>
+            <p>视频输出区承接前面的图片和提示，保留镜头状态、生成参数和预览结果，让视频成为工作流的一环。</p>
           </div>
         </article>
         <article class="card">
-          <img src="./assets/showcases/showcase-video-workbench.png" alt="Video workbench" />
+          <img src="./assets/v2-showcase/workspace-overview-dark.png" alt="Project workspace overview" />
           <div class="card-body">
-            <h4>Video：视频生成功能区</h4>
-            <p>这里展示的是视频功能区本身。它承接前面的图片和提示，把静态结果继续推进到视频阶段。</p>
+            <h4>Workspace：项目级沉淀</h4>
+            <p>项目工作台保留项目进度、资产入口和专业工作区，让创作过程可以回到同一个项目里继续推进。</p>
           </div>
         </article>
         <article class="card">
-          <img src="./assets/cases/case-single-character-consistency-history.png" alt="History and reuse" />
+          <img src="./assets/v2-showcase/asset-library-characters-dark.png" alt="Character asset library" />
           <div class="card-body">
-            <h4>History：历史结果沉淀与复用</h4>
-            <p>历史记录里能直接看到可回看、可比较、可继续延展的结果沉淀。这里更适合使用更完整、更清晰的历史图片。</p>
+            <h4>Library：角色、场景、物品持续复用</h4>
+            <p>资产库让关键人物、场景和物品不是一次性提示词，而是可以被后续镜头反复调用的创作材料。</p>
           </div>
         </article>
       </div>
@@ -438,28 +440,21 @@
     </section>
 
     <section class="section">
-      <h3>演示视频</h3>
-      <p class="lead">相比 GIF，短视频更适合展示这类连续工作流，也更清楚。</p>
+      <h3>动态结果预览</h3>
+      <p class="lead">当前预览页使用轻量 WebP 展示生成结果动态效果，完整视频可通过 Releases 或测试反馈渠道同步。</p>
       <div class="demo-list">
         <article class="demo">
-          <video controls preload="metadata" src="./assets/videos/demo-idea-to-script.mp4"></video>
+          <img src="./assets/v2-showcase/video-result-action.webp" alt="Generated action preview" />
           <div class="meta">
-            <strong>一句想法 → 分镜脚本</strong>
-            <span>展示低提示词门槛，以及从灵感直接进入脚本组织流程。</span>
+            <strong>动作镜头预览</strong>
+            <span>展示角色、场景和镜头动作从图片继续推进到视频结果。</span>
           </div>
         </article>
         <article class="demo">
-          <video controls preload="metadata" src="./assets/videos/demo-assets-to-story.mp4"></video>
+          <img src="./assets/v2-showcase/video-result-character.webp" alt="Generated character preview" />
           <div class="meta">
-            <strong>资产中心 → 多图叙事</strong>
-            <span>展示资产如何真正进入连续创作链，而不是只在设置层存在。</span>
-          </div>
-        </article>
-        <article class="demo">
-          <video controls preload="metadata" src="./assets/videos/demo-script-to-video.mp4"></video>
-          <div class="meta">
-            <strong>分镜脚本 → 视频结果</strong>
-            <span>展示脚本、图像和视频之间的连续推进关系。</span>
+            <strong>角色镜头预览</strong>
+            <span>展示影视化人物镜头效果，适合作为公开展示里的动态补充。</span>
           </div>
         </article>
       </div>
