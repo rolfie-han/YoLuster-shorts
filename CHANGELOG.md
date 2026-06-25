@@ -1,10 +1,10 @@
 # Changelog
 
-> Public product-facing updates for `YoYoung Shorts 优漾短剧`.
+> Public product-facing updates for `YoLuster Shorts 釉光影`.
 
 ## 2026-05
 
-### YoYoung Shorts 2.0
+### YoLuster Shorts 2.0
 
 - Released the v2.0 Docker local deployment package.
 - Strengthened the full creative workflow from imported script to story parsing, asset prompts, storyboard generation, image generation, and video output.
@@ -20,7 +20,7 @@
 
 ### Brand
 
-- Brand identity finalized as `YoYoung Shorts 优漾短剧`
+- Brand identity finalized as `YoLuster Shorts 釉光影`
 - Key in-product brand surfaces were unified around the new name
 
 ### Product Direction
