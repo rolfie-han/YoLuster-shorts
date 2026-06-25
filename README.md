@@ -253,13 +253,13 @@ YoLuster Shorts 釉光影由一名独立开发者持续构建。
 - 功能测试反馈与问题收集
 - 使用需求与优化建议
 
-> 二维码 7 天内有效，过期后会更新（6月23日前有效）。
+> 二维码 7 天内有效，过期后会更新（7月2日前有效）。
 
 <table>
   <tr>
     <td align="center">
       <strong>测试反馈群</strong><br />
-      <img src="./assets/community/wechat-test-group-2026-06-23.png" alt="釉光影测试反馈群二维码" width="320" />
+      <img src="./assets/community/wechat-test-group-2026-07-02.png" alt="釉光影测试反馈群二维码" width="320" />
     </td>
     <td align="center">
       <strong>个人反馈入口</strong><br />
