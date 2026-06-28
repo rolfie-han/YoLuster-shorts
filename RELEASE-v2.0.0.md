@@ -84,8 +84,8 @@ v2.0 接入并适配了更多文本、语音、生图、识图和视频模型路
 
 ## 使用方式
 
-1. 下载本版本中的 `docker-local-package-thin-bundle.zip`。
-2. 解压到本地英文路径，例如：`D:\yoyoung-shorts`。
+1. 下载本版本中的 `yoluster-shorts-v2.0.0-yoluster-brand-sync-docker-local-package-thin-bundle.zip`。
+2. 解压到本地英文路径，例如：`D:\yoluster-shorts`。
 3. 安装并启动 Docker Desktop。
 4. 按压缩包内 README 或启动脚本运行。
 5. 在浏览器打开本地地址使用。
@@ -105,11 +105,11 @@ v2.0 接入并适配了更多文本、语音、生图、识图和视频模型路
 下载文件：
 
 ```text
-releases/v2.0.0/docker-local-package-thin-bundle.zip
+releases/v2.0.0/yoluster-shorts-v2.0.0-yoluster-brand-sync-docker-local-package-thin-bundle.zip
 ```
 
 SHA256：
 
 ```text
-80FB8E5AD66D65AE5E480627B0FD8F2F00DDBE25245649746FB09968B1223BDF
+5CB0F874396E5A2771FB3F3A82809F1E8CD682454ABDC1DB349D21DF0B4A42AE
 ```
